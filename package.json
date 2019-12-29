@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "build": "bsb -make-world",
-    "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
+    "example:counter": "parcel ./examples/Counter.html",
+    "start": "bsb -make-world -w",
     "test": "bsb -make-world"
   },
   "bugs": "https://github.com/bloodyowl/reason-react-update/issues",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "bs-platform": "^5.0.3",
+    "parcel": "^1.12.4",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "reason-react": ">=0.7.0"
